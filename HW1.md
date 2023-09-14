@@ -115,7 +115,7 @@ episode_len_mean|ray/tune/episode_reward_mean|episode_reward_min|entropy|vf|loss
 
 - To visualize a specific checkpoint, use the following command:
 ```shell
-python multigrid/scripts/visualize.py --env MultiGrid-CompetativeRedBlueDoor-v3-DTDE-Red-Single  --num-episodes 10  --load-dir submission/ray_results/PPO/PPO_MultiGrid-CompetativeRedBlueDoor-v3-DTDE-Red-Single_XXXX/checkpoint_YYY/checkpoint-YYY --render-mode human --gif DTDE-Red-Single
+python multigrid/scripts/visualize.py --env MultiGrid-CompetativeRedBlueDoor-v3-DTDE-Red-Single  --num-episodes 10  --load-dir submission/ray_results/PPO/PPO_MultiGrid-CompetativeRedBlueDoor-v3-DTDE-Red-Single_XXXX/checkpoint_YYY/checkpoint-YYY --render-mode human --gif DTDE-Red-Single (**find the directory and load the directory path)
 ```
 ##### Replace `XXXX` and `YYY` with the corresponding number of your checkpoint.
 

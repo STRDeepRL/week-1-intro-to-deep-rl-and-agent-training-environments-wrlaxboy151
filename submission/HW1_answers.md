@@ -1,0 +1,1 @@
+After dividing the penalty for picking up the wrong object by the horizon the agent performed better. In particular, the episode length mean for the training with the smaller penalty was decreasing as opposed to a a constant value equal to the horizon.
